@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddPublicationFragment"
+    android:background="@color/main_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/name_author"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/placeholder_color"
+            android:backgroundTint="@color/placeholder_color" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/todo"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/ic_fon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/et_info"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:hint="@string/description"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/placeholder_color"
+                android:backgroundTint="@color/placeholder_color"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/btn_download"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_picture"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_publication"
+        android:icon="@drawable/ic_plus"
+        android:onClick="goToAddFragment"
+        android:title="@string/create_new_publication"
+        app:showAsAction="always" />
+</menu>

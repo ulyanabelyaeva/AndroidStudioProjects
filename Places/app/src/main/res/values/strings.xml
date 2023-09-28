@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">androidstudio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_profile">Profile</string>
+    <string name="todo">TODO</string>
+    <string name="main_item">Главная</string>
+    <string name="profile_item">Профиль</string>
+    <string name="create_new_publication">Create new publication</string>
+    <string name="test_country">Венеция, Италия</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_author">Имя автора</string>
+    <string name="description">Описание</string>
+</resources>
